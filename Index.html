@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanka M G - Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "VZi1tGrCDX8apMeUl",
+            });
+        })();
+    </script>
+
+    <script src="index.js"></script>
+</head>
+
+<body class="bg-black text-white">
+
+
+
+    <header class="bg-dark fixed-top shadow sticky-top">
+        <nav class="container-xxl navbar navbar-expand-lg py-1 bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold fs-3" href="#">PRIYANKA M G</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#experience">EXPERIENCE</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#skillsAndEducation">SKILLS And EDUCATION</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#project">PROJECTS</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <button class="color-picker-btn" onclick="document.getElementById('colorPicker').click()"
+                                title="Change Text Color">
+                                <i class="bi bi-brush"></i>
+                            </button>
+                            <input type="color" id="colorPicker" title="Choose text color">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid pt-5 my-5 full-height" id="home">
+        <div class="row mb-5 justify-content-center align-items-center text-center">
+            <div class="col-md-6">
+                <div class="circle overflow-hidden mx-auto shadow-lg" style="width: 250px; height: 250px;">
+                    <img class="img-fluid" src="./images/Priyanka.png" alt="profile-img" class="img-thumbnail" />
+                </div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <p class="display-3 fw-bold dynamic-color">I'm Priyanka M G</p>
+                <p class="display-5"><span class="typed text-success"></span><span class="typed-cursor"
+                        aria-hidden="true">|</span></p>
+                <div class="my-4">
+                    <a class="btn button-hover rounded-pill me-2 shadow" href="#about">
+                        About Me <i class="bi bi-person-circle"></i>
+                    </a>
+                    <a class="btn button-hover rounded-pill shadow" href="Asset/priyanka_MG_Reume.pdf"
+                        download="Priyanka_MG_Resume.pdf">
+                        Download Resume <i class="bi bi-download"></i>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center mb-4">
+                    <a class="btn btn-light btn-social rounded-circle mx-3 dynamic-color"
+                        href="https://github.com/priyankaneesh" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-light btn-social rounded-circle mx-3 dynamic-color"
+                        href="https://www.facebook.com/priyanka.aneesh.142"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social rounded-circle mx-3 dynamic-color"
+                        href="www.linkedin.com/in/priyanka-m-g-a04842152"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social rounded-circle mx-3 dynamic-color"
+                        href="https://www.instagram.com/priyankaneeshnv"><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+            <div class="col-12 mt-5">
+                <p class="h2 dynamic-color">Welcome to my portfolio, where you’ll find everything about my professional
+                    journey.</p>
+                <p class="fst-italic orange mt-5">
+                    Explore my projects, resume, contact details, location, educational background, and work experience.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="display-5 fw-bold dynamic-color  ">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-4 p-5 circle ">
+                    <img class="img-fluid BottomShadow p-4" style="border-radius: 30px;" src="./Images/PriyankaAbout.png" alt="">
+
+                </div>
+                <div class="col-lg-8 p-5">
+                    <h3 class="mb-4 text-start">ASP.Net Core Full Stack Developer</h3>
+                    <p class="short-content   " style="text-align: justify;">I am a Full Stack Developer specializing in
+                        ASP.NET with a year of experience in IT-based payroll systems. <br> Proficient in both front-end
+                        and back-end development, I have contributed to a Job Portal System using Agile-Scrum
+                        methodology. I design responsive layouts with Figma, develop interactive components using
+                        Angular, and implement server-side logic with C#, MVC, Razor, and Blazor, ensuring seamless
+                        integration with SQL databases.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2 text-start">
+                            <h6>Name: <span class="text-secondary">Priyanka M G</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2 text-start">
+                            <h6>Birthday: <span class="text-secondary">10 December 1994</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2 text-start">
+                            <h6>Degree/PG: <span class="text-secondary">Master of Computer Application</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2 text-start">
+                            <h6>Experience: <span class="text-secondary">1 year Internship</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2 text-start">
+                            <h6>Phone: <span class="text-secondary">+91-9497060333</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2 text-start">
+                            <h6>Email: <span class="text-secondary">priyankamg12@gmail.com</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2 text-start">
+                            <h6>Address: <span class="text-secondary">Thrissur,Kerala-680563</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2 text-start">
+                            <h6>Freelance: <span class="text-secondary">Available</span></h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <a href="Asset/priyanka_MG_Reume.pdf" download="Priyanka_MG_Resume.pdf"
+                    class="btn button-hover rounded-pill shadow me-3">Hire Me</a>
+                <a href="#project" class="btn button-hover rounded-pill shadow">project</a>
+            </div>
+
+
+        </div>
+    </section>
+    <section id="experience" class="py-5">
+
+        <div class="container">
+            <h2 class="display-5 fw-bold dynamic-color text-center ">Professional Experience</h2>
+            <div class="row justify-content-center g-5 m-3"> <!-- Added justify-content-center and gap classes -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="./images/Elite.jpg" alt="EliteHospital Image" class="card-img-top">
+                        <div class="card-body ">
+                            <strong>HR Assistant (IT-Based Payroll Management)</strong><br>
+                            <em>Elite Mission Hospital – 2022 to 2023</em><br>
+                            <div class="content mt-4">
+                                <p class="short-content   " style="text-align: justify;">
+                                    Managed payroll systems, ensuring accuracy and compliance. Supported software
+                                    development by troubleshooting payroll operations.
+                                    Processed payroll timely, handling garnishments and regulations.
+                                </p>
+                                <p class="remaining-content d-none" style="text-align: justify;">
+                                    Additionally, I worked on enhancing the payroll software by implementing user
+                                    feedback and streamlining processes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="./images/Aitrich.png" alt="AitrichImage" class="card-img-top">
+                        <div class="card-body  ">
+                            <strong>ASP.NET Core Full Stack Development Intern</strong><br>
+                            <em>Aitrich Technologies Pvt Ltd – 2024 to Present</em><br>
+                            <div class="content mt-4">
+                                <p class="short-content" style="text-align: justify;">
+                                    Developing a Job Portal System using Agile methodologies. Collaborating in daily
+                                    stand-ups and sprint planning.
+                                    Designing UI/UX in Figma; coding with HTML, CSS, and TypeScript.
+                                </p>
+                                <p class="remaining-content d-none" style="text-align: justify;">
+                                    I am also involved in conducting code reviews and improving application performance
+                                    through optimization techniques.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skillsAndEducation" class="py-5">
+
+        <div class="container">
+            <h2 class="display-5 fw-bold dynamic-color text-center "> </h2>
+
+            <div class="row justify-content-center g-3 m-5">
+                <div class="col-12 col-md-6">
+                    <div class="section-heading text-center">
+                        <h2 class=" display-5 fw-bold dynamic-color text-center ">Education</h2>
+                    </div>
+                    <div class="container">
+                        <div class="experience-content">
+                            <div class="main-timeline position-relative">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="single-timeline-box fix">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-5 text-md-end">
+                                                    <!-- Display this on all screen sizes -->
+                                                    <div class="experience-time">
+                                                        <h2>2018</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1 text-center">
+                                                    <span><i class="fa fa-circle dynamic-color"
+                                                            aria-hidden="true"></i></span>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="timeline">
+                                                        <div class="timeline-content">
+                                                            <h3>MCA</h3>
+                                                            <h6>Govt.Engineering College, Thrissur</h6>
+                                                            <p>Calicut University</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="single-timeline-box fix">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-5 text-md-end">
+                                                    <!-- Display this on all screen sizes -->
+                                                    <div class="experience-time">
+                                                        <h2>2015</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1 text-center">
+                                                    <span><i class="fa fa-circle dynamic-color"
+                                                            aria-hidden="true"></i></span>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="timeline">
+                                                        <div class="timeline-content">
+                                                            <h3>BCA</h3>
+                                                            <h6>ST. Mary's College, Thrissur</h6>
+                                                            <p>Calicut University</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div><!--.main-timeline-->
+                        </div><!--.experience-content-->
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="section-heading text-center">
+                        <h2 class=" display-5 fw-bold dynamic-color text-center ">Skills </h2>
+
+                        <div class="container">
+                            <div class="experience-content">
+                                
+
+                                    <ul
+                                        class="skills-list list-unstyled d-flex flex-wrap justify-content-center align-items-center row g-3">
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#f20071">
+                                            <div class="icon"><i class="fa-brands fa-html5 text-warning mb-3"></i></div>
+                                            <div class="title">HTML 5</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#FCBA35">
+                                            <div class="icon"><i class="fa-brands fa-css3 text-primary mb-3"></i></div>
+                                            <div class="title">CSS 3</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#DAE438">
+                                            <div class="icon"><i class="fa-brands fa-js text-success mb-3"></i></div>
+                                            <div class="title">JavaScript</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#994D7F">
+                                            <div class="icon"><i class="fa-brands fa-github text-secondary mb-3"></i>
+                                            </div>
+                                            <div class="title">GitHub</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#ff5722">
+                                            <div class="icon"><i class="fa-brands fa-bootstrap text-info mb-3"></i>
+                                            </div>
+                                            <div class="title">Bootstrap</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#2c8eb8">
+                                            <div class="icon"><i class="fa-brands fa-angular text-danger mb-3"></i>
+                                            </div>
+                                            <div class="title">Angular</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#563d7c">
+                                            <div class="icon"><i class="fa-brands fa-code text-primary mb-3"></i></div>
+                                            <div class="title">C#</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#007acc">
+                                            <div class="icon"><i class="fa-brands fa-js text-warning mb-3"></i></div>
+                                            <div class="title">TypeScript</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#512bd4">
+                                            <div class="icon"><i class="fa-solid fa-globe text-primary mb-3"></i></div>
+                                            <div class="title">ASP.NET Core</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#47a248">
+                                            <div class="icon"><i class="fa-solid fa-server text-success mb-3"></i></div>
+                                            <div class="title">Web API</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#0079bf">
+                                            <div class="icon"><i class="fa-solid fa-columns text-info mb-3"></i></div>
+                                            <div class="title">Trello</div>
+                                        </li>
+                                        <li class="skills-item col-6 col-md-3 text-center"
+                                            style="--accent-color:#f24e1e">
+                                            <div class="icon"><i class="fa-brands fa-figma text-danger mb-3"></i></div>
+                                            <div class="title">Figma</div>
+                                        </li>
+                                    </ul>
+                                
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <section id="project">
+        <div class="container">
+            <h2 class="display-5 fw-bold dynamic-color text-center ">Projects</h2>
+
+
+            <div class="container mx-auto mt-4">
+                <div class="row justify-content-center g-5 m-3">
+
+
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100"  >
+                            <img src="./Images/4levelsecurity.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">4 Level B-Security</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">.Net Windows application</h6>
+                                <p class="card-text " style="text-align: justify;">Designed a folder protection system
+                                    with four-layer authentication: pixel selection, image-split comparison, Bluetooth
+                                    recognition, and password generation. Implemented AES encryption for data security,
+                                    with automatic re-encryption when the Bluetooth device was out of range.</p>
+
+                                <a href="https://github.com/priyankaneesh/4LevelB-Security/tree/main/Security11" class="btn button-hover"><i class="fab fa-github"></i> Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100"  >
+                            <img src="./Images/JOBPORTAL.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> HireBridge</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">MVC-JobPortal</h6>
+                                <p class="card-text" style="text-align: justify;">Developed a job portal using MVC
+                                    architecture with a dynamic frontend (HTML, Bootstrap) and secure backend (ASP.NET
+                                    Core). Ensured efficient data handling, user authentication, and a user-friendly
+                                    design, adhering to Agile practices.</p>
+                                <!-- <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a> -->
+                                <a href="https://github.com/priyankaneesh/MVCJobPortal/tree/master/MvcExercise" class="btn button-hover"><i class="fab fa-github"></i> Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section mt-5">
+        <div class="container text-center ">
+
+            <h6 class="section-title mb-4">Get In Touch With Me</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br>
+                rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="contact text-left">
+                <div class="form ">
+                    <h6 class="subtitle">Available 24/7</h6>
+                    <h6 class="section-title mb-4">Get In Touch</h6>
+                    <form id="contact-form" onsubmit="sendMail(event)">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="message" cols="30" rows="5" class="form-control"
+                                placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn button-hover  btn-block rounded w-lg">Send Message</button>
+                    </form>
+
+                </div>
+                <div class="contact-infos pt-5">
+                    <div class="item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h5 class="text-start">Location</h5> <!-- Use text-start for Bootstrap 5 -->
+                            <p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Kodannur,+Thrissur,+Kerala-680563"
+                                    target="_blank" class="contact-link">
+                                    Thrissur, Kerala-680563
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h5 class="text-start">Phone Number</h5> <!-- Use text-start for Bootstrap 5 -->
+                            <p>
+                                <a href="tel:+919497060333" class="contact-link">
+                                    (+91) 9497060333
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="mb-0">
+                            <h5 class="text-start">Email Address</h5> <!-- Use text-start for Bootstrap 5 -->
+                            <p>
+                                <a href="mailto:priyankamg12@gmail.com" class="contact-link">
+                                    priyankamg12@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d490.41872908477706!2d76.18816830640182!3d10.473050949161824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f1f3661168ad%3A0x13a69130e0d83213!2sSN%20Nagar%2C%20Thrissur%2C%20Kerala%20680563!5e0!3m2!1sen!2sin!4v1730527753882!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid   text-white mt-5   px-sm-3 px-md-5">
+        <div class="container text-center ">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social rounded-circle mx-3 dynamic-color"
+                    href="https://github.com/priyankaneesh" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social rounded-circle mx-3 dynamic-color"
+                    href="https://www.facebook.com/priyanka.aneesh.142"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social rounded-circle mx-3 dynamic-color"
+                    href="www.linkedin.com/in/priyanka-m-g-a04842152"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social rounded-circle mx-3 dynamic-color"
+                    href="https://www.instagram.com/priyankaneeshnv"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+
+            <div>
+                <i>Developed by Priyanka M G</i>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down  text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
